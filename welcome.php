@@ -129,39 +129,5 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </body>
 </html>
 
-<?php
-include 'config.php';
 
-if(isset($_POST['submitr'])){
-
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $mobile = $_POST['mobile'];
-    $rollno = $_POST['Rollno'];
-    $class = $_POST['class'];
-    $DOB = $_POST['Dob'];
-    $father = $_POST['Fathername'];
-    $mother = $_POST['Mothername'];
-    $address = $_POST['Address'];
-    $image = $_FILES['image'];
-
-    
-    $insertquery = " insert into register(name,emailid,mobileno,rollno,class,DOB,father,mother,address,image) values('$name','$email','$mobile','$rollno','$class','$DOB','$father','$mother','$address','$image') ";
-    $res = mysqli_query($link,$insertquery);
-    if($res){
-        ?>
-        <script>
-            alert("data submitted properly");
-            alert("Please logot-session");
-        </script>
-        <?php 
-    }else{
-        ?>
-        <script>
-            alert("data not insrted properly");
-        </script>
-        <?php
-    }
-}
-?>
 
