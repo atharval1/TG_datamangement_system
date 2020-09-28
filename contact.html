@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <style>
+        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
+        .bg-dark {
+            background-color: #343a40!important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark">
+        <a class="navbar-brand" href="#">TG Datamanagement System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">contact us</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact -->
+    <section class="container">
+
+        <!--Contact heading-->
+        <h2 class="h1 m-0">Contact Us</h2>
+        <!--Contact description-->
+        <p class="pb-2">For any Further Query plese contact us....</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-5 mb-4">
+
+                <!--Form with header-->
+                <div class="card border- rounded-0">
+
+                    <div class="card-header p-0">
+                        <div class="bg-light text-dark text-center py-2">
+                            <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                            <p class="m-0">We'll write rarely, but only the best content.</p>
+                        </div>
+                    </div>
+                    <div class="card-body p-3">
+
+                        <!--Body-->
+                        <form method="POST" action="query.php">
+                            <div class="form-group">
+                                <label>Your name</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="name" id="inlineFormInputGroupUsername" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Your email</label>
+                                <div class="input-group mb-2 mb-sm-0">
+                                    <input type="email" class="form-control" name="email" id="inlineFormInputGroupUsername" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <div class="input-group mb-2 mb-sm-0">
+                                    <textarea class="form-control" name="text"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <button class="btn btn-light btn-block rounded-0 py-2 border border-dark" name="submit">Submit</button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <!--Form with header-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-7">
+
+                <!--Google map-->
+                <div class="mb-4">
+
+                </div>
+
+                <!--Buttons-->
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="bg-dark px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-map-marker"></i></a>
+                        <p>Pune<br> India</p>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="bg-dark px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-phone"></i></a>
+                        <p>+ 91 123456789, <br> Mon - Fri, 8:00-22:00</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="bg-dark px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-envelope"></i></a>
+                        <p>info@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!-- Contact -->
+    <footer id="sticky-footer" class="py-1  text-info">
+        <div class="container text-center">
+            <small>Copyright &copy; tg datamanagment system|Atharva</small>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
